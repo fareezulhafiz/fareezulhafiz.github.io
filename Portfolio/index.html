@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fareezul | UI/UX & VR Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;500;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">fareezul hafiz.</div>
+        <div class="nav-right-group">
+            <ul class="nav-menu">
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero">
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>HELLO, I'M FAREEZUL. HELLO, I'M FAREEZUL.</span>
+        </div>
+    </div>
+    <div class="hero-main">
+        <div class="hero-text">
+            <h1 class="hero-title">Crafting <span>diegetic</span> VR interfaces & immersive digital products.</h1>
+            <p class="hero-subtext">Final Year Computer Science Student specializing in Graphics & Multimedia Technology. I bridge the gap between complex software engineering and intuitive human-centered design.</p>
+        </div>
+        <div class="hero-avatar">
+            <img src="src/ProfilePic.jpeg" alt="Fareezul Portrait" class="avatar-img">
+        </div>
+    </div>
+</header>
+
+    <!-- WORK SECTION -->
+    <section id="work" class="projects-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2 class="work-label">Selected Works</h2>
+            <span class="year-label">© 2026</span>
+        </div>
+        
+        <div class="project-grid">
+            <!-- Project 1: VRQUAPONIC (Large) -->
+            <a href="project-vrquaponic.html" class="project-card large">
+                <div class="project-image-wrapper" style="background: #1a1a1a;">
+                    <!-- Placeholder for VRQUAPONIC Hero -->
+                    <img src="src/HomeVR.png" alt="VRQUAPONIC">
+                </div>
+                <div class="project-meta">
+                    <h3>VRQUAPONIC <span>→</span></h3>
+                    <p>Educational VR simulator for aquaponic systems with diegetic UI.</p>
+                </div>
+            </a>
+
+            <div class="project-split">
+                <!-- Project 2: Respawned (Small) -->
+                <a href="project-respawned.html" class="project-card small">
+                    <div class="project-image-wrapper" style="background: #2d3748;">
+                        <img src="src/HomeGame2.png" alt="Respawned">
+                    </div>
+                    <div class="project-meta">
+                        <h3>Respawned <span>→</span></h3>
+                        <p>Fast-paced 3D shooter game environment.</p>
+                    </div>
+                </a>
+
+                <!-- Project 3: Badang (Small) -->
+                <a href="project-badang.html" class="project-card small">
+                    <div class="project-image-wrapper" style="background: #e2e8f0;">
+                        <img src="src/HomeGame1.png" alt="Badang: Multiversal Destiny">
+                    </div>
+                    <div class="project-meta">
+                        <h3>Badang: Multiversal Destiny <span>→</span></h3>
+                        <p>2D platformer following the legendary Malay warrior.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Project 4: E-Comm V2 (Large) -->
+            <a href="project-ecomm.html" class="project-card large">
+                <div class="project-image-wrapper" style="background: #a3a89a;">
+                    <img src="src/HomeMobile.jpg" alt="E-Comm V2">
+                </div>
+                <div class="project-meta">
+                    <h3>E-Comm V2 <span>→</span></h3>
+                    <p>Mobile app for campus utility with integrated navigation and SOS modules.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section id="about" class="about-section">
+    <div class="section-container">
+        <div class="about-grid">
+            <!-- Left Column: Biography -->
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a final-year Computer Science student at Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA) specializing in Graphics and Multimedia Technology. Beyond specialized VR development, I am deeply interested in the foundational principles of Computer Science, solving complex problems through efficient algorithms and robust software architecture.
+
+With a core focus on UI/UX and VR development, I aim to build elegant, high-performance solutions that balance technical complexity with user-centric design. Whether I'm working on immersive VR simulations or functional web applications, my goal is to create seamless digital experiences..
+                </p>
+                <p class="about-text">
+                    With a core focus on UI/UX and VR development, I aim to build elegant solutions that solve complex problems through clean code and user-centric design.
+                </p>
+            </div>
+            
+            <!-- Right Column: Skills with labels -->
+            <div class="about-skills">
+                <span class="skills-label">EXPERTISE</span>
+                <ul class="skills-list">
+                    <li>Virtual Reality & Simulation: Unity 6, XR Interaction Toolkit, and immersive 3D environments.</li>
+                    <li>UI/UX Design & Prototyping: User-centric design systems, diegetic UI, and high-fidelity prototyping.</li>
+                    <li>Software Development: Full-stack development using Java, Laravel, and Firebase.</li>
+                    <li>Hardware & Optimization: PC architecture troubleshooting, system performance tuning, and hardware-software integration.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT SECTION (Integrated with Footer) -->
+    <footer class="footer" id="contact">
+    <div class="footer-inner">
+        <div class="footer-headline">
+            <h2>Let’s build something <span>immersive</span>.</h2>
+        </div>
+        
+        <div class="footer-links">
+            <div class="contact-box">
+                <span class="label">Get in touch</span>
+                <a href="mailto:fareezulhafiz15@gmail.com" class="main-link">fareezulhafiz15@gmail.com</a>
+            </div>
+            
+            <div class="contact-box">
+                <span class="label">Follow</span>
+                <div class="social-icons">
+                    <a href="https://github.com/fareezulhafiz" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/fareezul-hafiz-909456294/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/fareezvl" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© Fareezul Design 2026</p>
+            <a href="resume.pdf" download class="btn-cv">Download CV</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
